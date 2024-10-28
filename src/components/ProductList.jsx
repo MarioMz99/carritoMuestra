@@ -34,7 +34,9 @@ export const ProductList = ({
 					</figure>
 					<div className='info-product'>
 						<h2>{product.nameProduct}</h2>
-						<body>{product.dataProduct}</body>
+						<p>{product.data1Product}</p>
+						<p>{product.data2Product}</p>
+						<p>{product.data3Product}</p>
 						<p className='price'>${product.price}</p>
 						<button className='btn-add-car' onClick={() => onAddProduct(product)}>
 							Añadir al carrito

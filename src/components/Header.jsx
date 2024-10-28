@@ -62,7 +62,7 @@ export const Header = ({
 
   return (
     <header>
-      <h1>Tienda V2.0</h1>
+      <h1>Majestic Shine</h1>
       <div className="container-icon">
         <div
           className="container-cart-icon"
